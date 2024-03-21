@@ -1,0 +1,14 @@
+name: AdvancedPoisonStick
+version: 1.0
+description: A Minecraft plugin that adds a Poison Stick item which poisons entities on right-click.
+author: YourName
+main: com.afelia.advancedpoisonstick.AdvancedPoisonStick
+api-version: '1.20'
+commands:
+  givepoisonstick:
+    description: Gives the player a Poison Stick.
+    permission: poisonstick.give
+  giveplayerpoisonstick:
+    description: Gives the specified player a Poison Stick.
+    permission: poisonstick.giveplayer
+    usage: /giveplayerpoisonstick <player>

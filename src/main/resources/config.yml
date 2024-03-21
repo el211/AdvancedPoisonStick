@@ -1,0 +1,8 @@
+max_uses: 10
+cooldown: 5
+custom_model_data: 0
+poison_duration: 10
+item_name: "&cPoison Stick"
+item_lore:
+  - "&7Right-click to poison an entity!"
+  - "&7Remaining Uses: %remaining_uses%/%max_uses%"
